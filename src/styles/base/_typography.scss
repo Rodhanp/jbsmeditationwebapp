@@ -1,0 +1,74 @@
+// Typography
+
+html {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-size: 100%;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  color: #666;
+  line-height: 1.416;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+}
+
+h1,
+h2 {
+  font-size: 2.827em;
+}
+
+h3 {
+  font-size: 1.999em;
+}
+
+h4 {
+  font-size: 1.414em;
+}
+
+p {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+small,
+.font_small {
+  font-size: .707em;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+
+  @include transition(color);
+
+  &:hover {
+    color: $gradient-purple-fallback;
+  }
+
+  &.active {
+    color: $gradient-purple-fallback;
+  }
+}

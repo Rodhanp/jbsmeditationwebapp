@@ -1,0 +1,32 @@
+// Base
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+}
+
+.wrapper {
+  min-height: 100vh;
+}
+
+#root,
+.wrapper,
+.page,
+.authComponent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}

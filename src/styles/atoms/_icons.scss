@@ -1,0 +1,33 @@
+// Icons
+
+.icon {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  height: remy(96px);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: remy(135px) remy(135px);
+}
+
+.icon--mind {
+  background-image: url(icon-mind.svg);
+}
+
+.icon--stopwatch {
+  // background-image: url(icon-stopwatch-line.svg);
+  background-image: url(icon-hourglass.svg);
+  background-size: contain;
+}
+
+.icon--water-drop {
+  background-image: url(icon-water-drop.svg);
+  background-size: remy(112px) remy(119px);
+}
+
+.icon--zentime-logo {
+  margin-bottom: remy(32px);
+  background-image: url(icon-lotus-colored-purple.svg);
+  background-size: contain;
+  opacity: .65;
+}

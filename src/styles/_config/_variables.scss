@@ -1,0 +1,22 @@
+// Variables
+
+// Colors:
+$colors: (
+  blue: #03a9f4,
+  blue-light: #4fc3f7,
+  green: #00eb79,
+  green-light: #00ff83,
+  pink: #b24592, // fallback for gradient
+  red: #f44336,
+  red-light: #f77066
+);
+
+$radius: remy(35px);
+
+$gradient: linear-gradient(to left, #b24592, #f15f79);
+
+$gradient-purple: radial-gradient(ellipse farthest-corner at top left,#7b16ff 0%,#4400cc 100%);
+$gradient-purple-fallback: #7b16ff;
+
+$gradient-red: radial-gradient(ellipse farthest-corner at top left, #ff6a00 0%, #ee0979 100%);
+$gradient-red-fallback: #ee0979;

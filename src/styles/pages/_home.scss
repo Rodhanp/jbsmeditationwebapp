@@ -1,0 +1,41 @@
+// Homepage
+
+.home {
+  min-height: remy(275px);
+}
+
+.home__hero {
+  width: 100%;
+  text-align: center;
+
+  h1 {
+    font-weight: 400;
+    color: $gradient-purple-fallback;
+  }
+
+  h4 {
+    margin-bottom: remy(24px);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0 , 0, .75);
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 6vmax;
+    }
+  }
+}
+
+.home-cta {
+  color: map-get($colors, blue);
+}
+
+.hero__logo {
+  margin-bottom: remy(24px);
+  width: 100%;
+}
+
+.zentime-name {
+  font-family: Calligraffitti, Roboto, sans-serif;
+}
