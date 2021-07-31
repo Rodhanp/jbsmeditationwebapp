@@ -1,7 +1,6 @@
 {
   "homepage": "https://Rodhanp.github.io/jbstimer",
   "name": "jbstimer",
-  "version": "1.0.38",
   "description": "Meditation timer web app built for Samarpan Meditation by taking inspiration of Alex Devero's project",
   "main": "webpack.config.js",
   "engines": {
