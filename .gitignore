@@ -18,8 +18,8 @@ logs/
 *.log
 npm-debug.log*
 .npm
-.firebase
-.github
+.firebase/
+.github/
 
 # Packages #
 ############
