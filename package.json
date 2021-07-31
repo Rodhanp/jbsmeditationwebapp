@@ -1,5 +1,6 @@
 {
-  "name": "Samarpan Meditation Web App",
+  "homepage": "https://Rodhanp.github.io/jbstimer",
+  "name": "jbstimer",
   "version": "1.0.38",
   "description": "Meditation timer web app built for Samarpan Meditation by taking inspiration of Alex Devero's project",
   "main": "webpack.config.js",
@@ -9,6 +10,8 @@
     "yarn": ">=1.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack.config.js --mode development",
     "build": "cross-env NODE_ENV=production rimraf ./dist && webpack --config webpack.config.production.js --mode production",
     "postinstall": "webpack --config ./webpack.config.production.js --display-error-details --mode production",
@@ -17,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexdevero/meditation-web-app.git"
+    "url": "https://github.com/Rodhanp/jbstimer.git"
   },
   "keywords": [
     "app",
@@ -34,9 +37,8 @@
   "author": "Rodhan Patke <rodhanpatke17@gmail.com> (https://github.com/Rodhanp)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alexdevero/meditation-web-app/issues"
+    "url": "https://github.com/Rodhanp/jbstimer/issues"
   },
-  "homepage": "",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.5",
@@ -52,6 +54,7 @@
     "cross-env": "^5.2.0",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
+    "gh-pages": "^3.2.3",
     "html-webpack-plugin": "^3.2.0",
     "image-webpack-loader": "^4.3.1",
     "mini-css-extract-plugin": "^0.4.2",
